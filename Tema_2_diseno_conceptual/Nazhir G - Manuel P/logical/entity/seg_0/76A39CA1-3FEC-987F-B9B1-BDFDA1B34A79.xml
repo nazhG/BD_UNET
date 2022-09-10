@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76A39CA1-3FEC-987F-B9B1-BDFDA1B34A79" name="solicitud">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 22:41:19 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_solicitud" id="DCEB393A-4E8F-A2A5-98F2-23E3660BD977">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:05:10 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_reporte" id="029E45DC-1A01-275E-45B5-C7A7404F04AD">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:05:38 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="satisfaccion" id="D67B6D8C-B040-4E2E-82BD-7A14E6FB6615">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:15:39 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_solicitud" id="9C7F1621-F11D-9727-51EF-F84D8477D093">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:41:45 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente1" id="079E316E-276C-55F2-DE78-A5D9A7F12484">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:12:22 UTC</createdTime>
+<generatorID>746E83E7-FFBC-4FA2-6A8A-3182D80ACD8B</generatorID>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<referedAttribute>D1745E66-AE13-FE4B-3615-C691ABCC1F4B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_supervisor1" id="4BC4F568-5FBE-5ECF-F671-8586124BA1A8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:32:19 UTC</createdTime>
+<generatorID>C137D4D5-111E-712C-A91D-08B03FD15526</generatorID>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<referedAttribute>6CA7E07C-EC10-B570-CD22-6DB72301EB19</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="153C1182-10A5-E365-1A8D-067CD0036519" name="soliditud PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:05:30 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCEB393A-4E8F-A2A5-98F2-23E3660BD977</attributeRef>
+<attributeRef>079E316E-276C-55F2-DE78-A5D9A7F12484</attributeRef>
+<attributeRef>4BC4F568-5FBE-5ECF-F671-8586124BA1A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A742F43-6DD8-90C9-B977-D8AE1F6F3FC8" name="supervisor">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:29:02 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_supervisor" id="6CA7E07C-EC10-B570-CD22-6DB72301EB19">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:29:02 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="EE6CBCE0-9B4A-CB81-6099-6A92F97E04F9">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:29:02 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="4DCFC0BD-3E6D-B8A7-FB91-6811B81172B8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:29:34 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="60308904-E06F-13FC-D66F-B456864CB4F1" name="tecnico PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 23:29:02 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CA7E07C-EC10-B570-CD22-6DB72301EB19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

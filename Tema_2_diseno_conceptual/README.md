@@ -1,0 +1,1 @@
+![diagrama](https://github.com/nazhG/BD_UNET/blob/master/Tema_2_diseno_conceptual/Logical.png?raw=true)

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA1C4266-80C9-794A-B964-45BA04EF9A66" name="estado">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 22:50:38 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estado" id="AE327F4F-B5C8-DE62-5886-DFBF3CBE14F3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 22:50:51 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="814C1F8F-98E3-4549-6D6C-389204343FDB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 22:51:00 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8403AAD0-0023-F451-86AD-D7BD04DDF111" name="estado PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-09 22:50:58 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE327F4F-B5C8-DE62-5886-DFBF3CBE14F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
