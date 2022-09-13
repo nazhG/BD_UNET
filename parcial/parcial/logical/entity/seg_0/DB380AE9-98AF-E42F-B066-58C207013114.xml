@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB380AE9-98AF-E42F-B066-58C207013114" name="tipo_carro">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-13 01:04:21 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="D09F14E3-E69A-37E4-CBD1-21F4623CA6D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="B0DDF002-FDDB-7D8B-6586-5CC073D243D0">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-13 01:11:36 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="D09F14E3-E69A-37E4-CBD1-21F4623CA6D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="31AEB281-D9CE-A518-E28F-8E1CF3F12130">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-13 01:11:28 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="D09F14E3-E69A-37E4-CBD1-21F4623CA6D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

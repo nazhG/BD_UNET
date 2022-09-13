@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3665713-047E-8FC9-F850-CD7D3B4FDD42" name="reservacion">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-13 01:02:44 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="D09F14E3-E69A-37E4-CBD1-21F4623CA6D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="95401953-3588-DEBB-5A0F-B53A4A158BA2">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-13 01:10:39 UTC</createdTime>
+<generatorID>809075FD-8845-F686-B0BF-1525A66BB741</generatorID>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="D09F14E3-E69A-37E4-CBD1-21F4623CA6D9" value="true"/>
+</engineerTo>
+<referedAttribute>27432C6F-C79C-83B3-AF6A-7920E8962D91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="B7437E66-BB7D-F4BB-1C7E-B60968DC042C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-13 01:13:36 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="D09F14E3-E69A-37E4-CBD1-21F4623CA6D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localizador" id="1FDE4455-8A37-CE33-EAF1-656A29490CAA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-13 01:13:48 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="D09F14E3-E69A-37E4-CBD1-21F4623CA6D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="5A95F367-A0B7-5B67-EAAC-7D9E4304EFAE">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-13 01:14:46 UTC</createdTime>
+<generatorID>F4D7A840-7BFA-0442-001F-F762D21AF019</generatorID>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="D09F14E3-E69A-37E4-CBD1-21F4623CA6D9" value="true"/>
+</engineerTo>
+<referedAttribute>3005F39A-363E-2006-769A-3D8A8755A32F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C2370C40-6176-6BCF-B660-509E4B83F855" name="reservacion PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-13 01:10:39 UTC</createdTime>
+<ownerDesignName>parcial</ownerDesignName>
+<engineerTo>
+<item key="D09F14E3-E69A-37E4-CBD1-21F4623CA6D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95401953-3588-DEBB-5A0F-B53A4A158BA2</attributeRef>
+<attributeRef>5A95F367-A0B7-5B67-EAAC-7D9E4304EFAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
