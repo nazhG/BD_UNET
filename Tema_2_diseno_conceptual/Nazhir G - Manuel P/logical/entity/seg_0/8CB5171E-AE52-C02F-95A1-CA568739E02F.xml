@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21CF054B-CD85-4027-EEC7-DC81F6853DE5" name="tecnico">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CB5171E-AE52-C02F-95A1-CA568739E02F" name="tipo_solicitud">
 <createdBy>USUARIO</createdBy>
-<createdTime>2022-09-09 23:13:52 UTC</createdTime>
+<createdTime>2022-09-10 20:16:21 UTC</createdTime>
 <ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
 <engineerTo>
 <item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_tecnico" id="3FA6B4B8-5DCB-D11A-953E-07E6B67749A8">
+<Attribute name="id_tipo_solicitud" id="AB6B32C3-EBA1-0F8E-7026-A81639B0B532">
 <createdBy>USUARIO</createdBy>
-<createdTime>2022-09-09 23:14:02 UTC</createdTime>
+<createdTime>2022-09-10 20:16:21 UTC</createdTime>
 <ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
 <engineerTo>
 <item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="DE4A037F-1796-8787-E002-3339723A9CA5">
+<Attribute name="nombre" id="B8ADA806-394D-A856-0619-9672D855B7F3">
 <createdBy>USUARIO</createdBy>
-<createdTime>2022-09-09 23:14:13 UTC</createdTime>
+<createdTime>2022-09-10 20:16:21 UTC</createdTime>
 <ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
 <engineerTo>
 <item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
@@ -39,9 +39,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefono" id="46A0EFBE-383D-61AE-8BCC-783E3BB60B7D">
+<Attribute name="descripcion" id="7A732B94-ED62-C4B3-823D-1369C4A575E1">
 <createdBy>USUARIO</createdBy>
-<createdTime>2022-09-09 23:14:21 UTC</createdTime>
+<createdTime>2022-09-10 20:16:21 UTC</createdTime>
 <ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
 <engineerTo>
 <item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
@@ -54,16 +54,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2D0AEA24-8B13-A6A5-A415-F19C2593DC42" name="tecnico PK">
+<identifier id="DEE7088C-9718-B964-34DA-CBFEFF0A68B4" name="tipo_servicio PK">
 <createdBy>USUARIO</createdBy>
-<createdTime>2022-09-09 23:14:12 UTC</createdTime>
+<createdTime>2022-09-10 20:16:21 UTC</createdTime>
 <ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
 <engineerTo>
 <item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3FA6B4B8-5DCB-D11A-953E-07E6B67749A8</attributeRef>
+<attributeRef>AB6B32C3-EBA1-0F8E-7026-A81639B0B532</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

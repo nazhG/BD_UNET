@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26992E75-B09A-FEE6-D933-CDA1A0174523" name="estado_solicitud">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:05:48 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado_solicitud" id="81737298-9123-C2E7-2EFF-177D8654D1C3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:06:18 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="06F2EF98-A1E7-84BD-C3BD-E66EDB18EF03">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:06:18 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc" id="EFB41565-28B8-0862-526D-76025CAF425F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:06:29 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD2D2FF9-FC26-6441-2DB8-B2C097F0D1E7" name="estado_solicitud_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:06:18 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81737298-9123-C2E7-2EFF-177D8654D1C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

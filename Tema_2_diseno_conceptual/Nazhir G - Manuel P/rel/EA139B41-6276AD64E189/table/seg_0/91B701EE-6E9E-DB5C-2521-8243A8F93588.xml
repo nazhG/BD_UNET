@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91B701EE-6E9E-DB5C-2521-8243A8F93588" name="solicitud">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:28:23 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_solicitud" id="DA564C37-0C0B-08D2-E840-807E6416EBE5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:28:39 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_reporte" id="06D0EEC0-E88D-62EE-64A4-44F8B3E41445">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:28:56 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_id_cliente" id="FD7F4FC1-B8EF-4CF1-5135-2DC8D230A51B">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:29:56 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="805CCF69-30A9-C098-156F-048AF65BB6FB" referredColumn="157CF016-E8B3-F0A5-B327-D8883239AC5C"/>
+</associations>
+</Column>
+<Column name="supervisor_id_supevisor" id="840DE1FE-B4B9-D9C1-2520-7DAB22105227">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:31:59 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="289A96B1-F6AB-18EE-ACC9-A59F7F4304A6" referredColumn="97BF2D46-2E37-9FE4-4BB5-463AA88E1545"/>
+</associations>
+</Column>
+<Column name="satisfaccion_id_satisfaccion" id="BED89B62-CF6B-D8C2-33FD-73836A46FB06">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:41:02 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A0C66C2-2147-9EDC-812A-93B7A99E9D6A" referredColumn="CD4CD594-AEB3-6A4C-DF37-360550F396BF"/>
+</associations>
+</Column>
+<Column name="estado_solicitud_id_estado_solicitud" id="D15DA7AF-7B40-476F-9FE3-09D89193FF37">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:06:47 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="446C5589-1E0F-D801-6960-EF766EB73A5C" referredColumn="81737298-9123-C2E7-2EFF-177D8654D1C3"/>
+</associations>
+</Column>
+<Column name="tipo_solicitud_id_tipo_solicitud" id="A0D6124F-E829-15B3-3E0D-7C1BAB3507EE">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:43:15 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9539B00-BEFC-0BE0-CC78-9EFDCB506871" referredColumn="AA72806B-7A46-014B-D939-2B93EFAF9EDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3596F4E8-0D2E-4E75-228E-A27E6C59631E" name="solicitud_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:28:39 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA564C37-0C0B-08D2-E840-807E6416EBE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97913565-7CB8-3AC0-44A0-F47B13468709" name="solicitud_cliente_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:29:56 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD7F4FC1-B8EF-4CF1-5135-2DC8D230A51B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB3937EA-761A-F410-8C20-C5B19A2CEA88" name="solicitud_supervisor_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:31:59 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="840DE1FE-B4B9-D9C1-2520-7DAB22105227"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAD1425B-B0E3-2913-1579-4BB155470572" name="solicitud_satisfaccion_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:41:02 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BED89B62-CF6B-D8C2-33FD-73836A46FB06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A099BCEC-37DF-F047-AF02-F935A6A2D920" name="solicitud_estado_solicitud_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:06:47 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D15DA7AF-7B40-476F-9FE3-09D89193FF37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D24DB8B8-6FAE-47DA-4B1F-223DFBA70684" name="solicitud_tipo_solicitud_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:43:15 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0D6124F-E829-15B3-3E0D-7C1BAB3507EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

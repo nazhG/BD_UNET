@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C2975D56-ECC3-823C-9DBD-8DE63EAF6CE0" name="tipo_solicitud">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:39:12 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_solicitud" id="AA72806B-7A46-014B-D939-2B93EFAF9EDD">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:40:01 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="FB7F21A5-9F42-48DA-06F5-2EBECAA751E7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:40:01 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costo" id="00BD7C54-A706-457A-566B-5B90B509006E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:40:13 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="092A8EEA-5946-DF43-814D-F7D7A87CD35C" name="tipo_solicitud_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:40:01 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA72806B-7A46-014B-D939-2B93EFAF9EDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

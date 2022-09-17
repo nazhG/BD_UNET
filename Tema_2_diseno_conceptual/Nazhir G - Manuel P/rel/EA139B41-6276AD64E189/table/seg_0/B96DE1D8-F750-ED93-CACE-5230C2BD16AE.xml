@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B96DE1D8-F750-ED93-CACE-5230C2BD16AE" name="supervisor">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:30:28 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_supevisor" id="97BF2D46-2E37-9FE4-4BB5-463AA88E1545">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:30:43 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="2DC4B635-06AD-FB0C-087C-83A33E97DEC3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:30:52 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="D4122542-5190-786E-4304-A406956E7E3C">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:31:46 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA0BBEEE-3081-79CB-02DB-9FA5161FA39A" name="supervisor_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:30:43 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97BF2D46-2E37-9FE4-4BB5-463AA88E1545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

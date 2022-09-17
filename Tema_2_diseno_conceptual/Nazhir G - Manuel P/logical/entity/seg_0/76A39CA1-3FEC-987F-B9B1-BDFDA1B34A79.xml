@@ -93,6 +93,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_satisfaccion" id="5D2591CC-AB96-D2E9-0ADB-591235881042">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-10 20:42:24 UTC</createdTime>
+<generatorID>BDC3F103-84BC-F816-4423-7D29EDA520C4</generatorID>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<referedAttribute>5403E746-D679-BC82-A6BC-6473CC386BEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="153C1182-10A5-E365-1A8D-067CD0036519" name="soliditud PK">

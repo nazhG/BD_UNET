@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_servicio" id="53DA0650-AA4A-DA17-C414-81F52C205980">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:15:34 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="descripcion " id="6DE4080D-0B5C-991C-0DCD-2AFEEBFECC18">
 <createdBy>USUARIO</createdBy>
 <createdTime>2022-09-09 23:33:06 UTC</createdTime>
@@ -162,6 +174,7 @@
 <attributeRef>95483640-20FE-C1CF-BFF6-0B4D39FD6306</attributeRef>
 <attributeRef>540CFB66-B5A7-FA32-2AA3-B771FBD2F1C9</attributeRef>
 <attributeRef>2038471E-C718-B136-9B4F-B507F9396921</attributeRef>
+<attributeRef>53DA0650-AA4A-DA17-C414-81F52C205980</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

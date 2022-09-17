@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5EDBF62-146B-95C6-195B-2066DA428823" name="municipio">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:23:21 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_municipio" id="D61C433C-D8FB-006D-BC41-E5E904A0B927">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:24:01 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="7EF72874-3237-7CB0-DEB6-CFFA1724B620">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:24:01 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_id_estado" id="CF53FF89-EE7E-B3DF-21B5-65268F1FC675">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:24:24 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF297716-BD14-E1D6-8B57-B5C5B6F730EF" referredColumn="CBA76597-7F35-87D0-C373-CD3E51BE13C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52C8A24B-938A-5D83-3815-F556E94BDE37" name="municipio_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:24:01 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D61C433C-D8FB-006D-BC41-E5E904A0B927"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="088ABACE-C204-DE01-A434-4AD15AC5C7D3" name="municipio_estado_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:24:24 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF53FF89-EE7E-B3DF-21B5-65268F1FC675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

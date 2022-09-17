@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="026F3C8E-04E0-BCA4-9501-D89554128526" name="pais">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:20:22 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pais" id="A496D5CC-667E-A888-8C29-2A325FC61713">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:20:44 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5BF2CEB3-4BF0-3F61-23FF-2DF0FBA519A5">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:20:44 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="792F6041-2EC1-5289-447C-0AB1853E215D" name="pais_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 16:20:44 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A496D5CC-667E-A888-8C29-2A325FC61713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

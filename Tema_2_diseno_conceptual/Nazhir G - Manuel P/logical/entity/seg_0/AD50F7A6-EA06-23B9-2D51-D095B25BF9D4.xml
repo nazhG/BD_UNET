@@ -39,6 +39,18 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="fecha_naimiento" id="EDE49451-7964-BB11-4F4A-BD2D64012FF3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 14:52:22 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<engineerTo>
+<item key="EA139B41-0296-8263-98C5-6276AD64E189" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="dirreccion" id="8ACD3C34-D239-0D30-E34A-3CE17D4ECBBE">
 <createdBy>USUARIO</createdBy>
 <createdTime>2022-09-09 22:44:57 UTC</createdTime>

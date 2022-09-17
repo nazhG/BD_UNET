@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F44D38A-33A6-56AD-AF0D-033AF7D3D015" name="satisfaccion">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:34:51 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_satisfaccion" id="CD4CD594-AEB3-6A4C-DF37-360550F396BF">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:35:05 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_satisfaccion" id="9EB870F1-5C41-51F5-8427-AB0D9EAD64DB">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:36:39 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E2ECEEA-0A20-92DB-B86E-EE651C97A8FE" name="satisfaccion_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:36:44 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD4CD594-AEB3-6A4C-DF37-360550F396BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5731E4E7-D281-2F29-F557-8B370A6F356A" name="satisfaccion__UN">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:37:35 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

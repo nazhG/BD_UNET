@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="289A96B1-F6AB-18EE-ACC9-A59F7F4304A6" containerWithKeyObject="91B701EE-6E9E-DB5C-2521-8243A8F93588" localFKIndex="DB3937EA-761A-F410-8C20-C5B19A2CEA88" name="solicitud_supervisor_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:31:59 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<referredTableLongName>supervisor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B96DE1D8-F750-ED93-CACE-5230C2BD16AE</referredTableID>
+<keyObject>EA0BBEEE-3081-79CB-02DB-9FA5161FA39A</keyObject>
+<referredKeyID>EA0BBEEE-3081-79CB-02DB-9FA5161FA39A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_supevisor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

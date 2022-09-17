@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A369AFF-B24C-6204-B60E-042A40F8328E" name="tipo_servicio">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:47:05 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo_servicio" id="4CE59E1E-5C20-11C1-4F97-8F96F0D1AC8E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:47:34 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A55AD4A0-BB3D-C74E-F6FC-3905A79CBC3D">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:47:34 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc" id="902550C4-804E-4285-1ABA-85F2B5F2D4C7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:47:44 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0537A6E-B9B6-2DB6-A86E-1E4CC3C21738" name="tipo_servicio_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-17 15:47:34 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE59E1E-5C20-11C1-4F97-8F96F0D1AC8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
