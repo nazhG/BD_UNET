@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D672BFAF-CFE9-7BD6-9BDF-452FA996A405" name="cliente">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:28:58 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo_cliente" id="C6F24B2B-009E-E278-9C49-5E1851C2E5D6">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:29:36 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="B2479A70-72C7-1BAE-FFC5-F94124B034AF">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:29:36 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirreccion" id="5A115E68-3D8F-0E27-B92F-CF414090EB0E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:30:04 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="2F00E327-D279-4490-F572-223937753744">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:30:04 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="natural_Cedula" id="3A124F5C-3F95-5A72-F590-CDC24A18EB4E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:36:40 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCCABFED-CEF1-1252-B29F-9EEFAD9F585A" referredColumn="92B12649-639A-32B0-FCE6-9BA2E45BF727"/>
+</associations>
+</Column>
+<Column name="Juridico_Rif" id="6BE61158-7BB6-78CD-D5E8-1CCA074BCB2E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:38:03 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E3A4771-B3FC-F04A-3DE7-95CA5253D4C7" referredColumn="8418B3BC-770C-714B-51A0-C2C57F880624"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="476552A5-D4AF-B6A3-7600-CA8DDB44754D" name="cliente_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:29:36 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6F24B2B-009E-E278-9C49-5E1851C2E5D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4640203A-DA12-F69D-D227-3C6BAFF97C9B" name="cliente__UN">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:37:19 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A124F5C-3F95-5A72-F590-CDC24A18EB4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F4796DA-9536-5269-ACE1-2050C2822147" name="cliente__UNv1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:38:26 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BE61158-7BB6-78CD-D5E8-1CCA074BCB2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3B50A87-EA6F-E6B8-7CB2-96E07E8F17E1" name="cliente_natural_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:36:40 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A124F5C-3F95-5A72-F590-CDC24A18EB4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34730E83-BF57-EEE9-DE31-A15A4391E77F" name="cliente_Juridico_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:38:03 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BE61158-7BB6-78CD-D5E8-1CCA074BCB2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

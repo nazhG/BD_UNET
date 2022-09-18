@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="D8941695-F24E-48C4-86D4-E491ADB433A8" mainViewID="1F40D8C9-B29C-3932-2C1B-83C2302C8511">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:18:18 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

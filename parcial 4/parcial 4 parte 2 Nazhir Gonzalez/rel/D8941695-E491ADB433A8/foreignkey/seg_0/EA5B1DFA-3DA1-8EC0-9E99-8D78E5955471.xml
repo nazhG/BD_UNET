@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA5B1DFA-3DA1-8EC0-9E99-8D78E5955471" containerWithKeyObject="78585F30-A38F-D794-1A6B-A8DF3D8764EA" localFKIndex="F60C7393-A617-D279-0D46-15EC8364E2A4" name="Pedidos_cliente_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:56:04 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<referredTableLongName>cliente</referredTableLongName>
+<arc>696BE864-2F62-A3FF-98B8-4A2714317F4C</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D672BFAF-CFE9-7BD6-9BDF-452FA996A405</referredTableID>
+<keyObject>476552A5-D4AF-B6A3-7600-CA8DDB44754D</keyObject>
+<referredKeyID>476552A5-D4AF-B6A3-7600-CA8DDB44754D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Codigo_cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

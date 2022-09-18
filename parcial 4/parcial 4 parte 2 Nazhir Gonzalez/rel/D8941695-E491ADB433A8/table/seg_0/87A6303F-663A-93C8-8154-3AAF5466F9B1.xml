@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87A6303F-663A-93C8-8154-3AAF5466F9B1" name="Presupuestos">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:46:45 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="N_pre" id="8F702EEF-E1EF-7429-0353-8910843865A0">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:47:11 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pre" id="3136145B-86B3-990A-DE80-305DCD1F3BE1">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:47:11 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_Codigo_vendedor" id="BEBEB57D-3BC4-6D79-0FCD-A86F5CE09C14">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:53:07 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0C07819-EFA0-4B4C-FB72-ED6DF9529E1A" referredColumn="7826C3AF-008C-0600-3800-4A4739F829D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5612FCC9-D9A7-94A0-9F85-ECDEB4581E2D" name="Presupuestos_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:47:11 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F702EEF-E1EF-7429-0353-8910843865A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE087461-AB54-C0E8-51DE-69B590818F6E" name="Presupuestos_Vendedor_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:53:07 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEBEB57D-3BC4-6D79-0FCD-A86F5CE09C14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

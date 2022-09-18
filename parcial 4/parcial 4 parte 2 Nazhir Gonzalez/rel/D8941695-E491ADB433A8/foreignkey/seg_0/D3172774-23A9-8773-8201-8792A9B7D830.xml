@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D3172774-23A9-8773-8201-8792A9B7D830" containerWithKeyObject="68A06F3F-98BA-73C4-D6A7-746EAA29228D" localFKIndex="856BCC0A-450B-6194-D206-6E24FE22E805" name="Credito_Banco_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:43:36 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<referredTableLongName>Banco</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>26E0CD7B-9EF6-BAEA-A7E2-E28C0FAA0889</referredTableID>
+<keyObject>E0EE1D72-7E65-41D2-9523-90B3D29C3B63</keyObject>
+<referredKeyID>E0EE1D72-7E65-41D2-9523-90B3D29C3B63</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_banco</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

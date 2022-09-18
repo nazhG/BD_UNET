@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78585F30-A38F-D794-1A6B-A8DF3D8764EA" name="Pedidos">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:47:13 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="N_ped" id="29CD6D40-4EB0-89B3-06BC-0F95430310A4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:48:14 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_ped" id="DF992E44-A3C3-8FA4-F8EE-691F9A3AB6EA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:48:14 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vendedor_Codigo_vendedor" id="0021DE83-88D0-459E-9434-C4EA406957B9">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:53:27 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9305BE0-9168-864F-DA5A-54658114CFBE" referredColumn="7826C3AF-008C-0600-3800-4A4739F829D8"/>
+</associations>
+</Column>
+<Column name="Presupuestos_N_pre" id="BD000AFF-709B-6FA8-1E04-7AF8A62857C7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:55:30 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E7234AB-FDCD-C786-9513-FE0F86A8B842" referredColumn="8F702EEF-E1EF-7429-0353-8910843865A0"/>
+</associations>
+</Column>
+<Column name="cliente_Codigo_cliente" id="200E92B7-5001-C52B-B205-C3454ED0F6B8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:56:04 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA5B1DFA-3DA1-8EC0-9E99-8D78E5955471" referredColumn="C6F24B2B-009E-E278-9C49-5E1851C2E5D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85700A06-00B8-3C9D-334D-5E958307A2D6" name="Pedidos_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:48:32 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29CD6D40-4EB0-89B3-06BC-0F95430310A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AA2262C-158E-0CE4-CFE4-4BF85D37EFF1" name="Pedidos_Vendedor_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:53:27 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0021DE83-88D0-459E-9434-C4EA406957B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58B6185E-166B-E214-5EF6-CC97750DF033" name="Pedidos_Presupuestos_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:55:30 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD000AFF-709B-6FA8-1E04-7AF8A62857C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F60C7393-A617-D279-0D46-15EC8364E2A4" name="Pedidos_cliente_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:56:04 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="200E92B7-5001-C52B-B205-C3454ED0F6B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

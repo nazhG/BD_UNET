@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41D2CBCD-BD36-C7FF-2BAD-597DE880D8B4" name="Productos">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:49:35 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_prod" id="F033398F-9499-DB5E-E9B2-02C24251E62B">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:50:47 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descrip" id="21FECB33-2D38-2D94-2C9C-C491A6E3D080">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:50:47 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Unidad_medida" id="BB95E472-F9A0-9F10-F362-4CEA1C3F3B8E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:50:47 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Presio" id="28308D29-18CA-FD96-4796-C9EE321E6EE8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:50:47 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stock" id="8D037CA9-80E4-1000-2FC3-3AABD0244EB8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:50:47 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Productos_codigo_prod" id="6AB556A1-058B-835A-6D6E-6CAD78C30BD7">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:58:09 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E3ED975-60DC-F03F-AABD-3B63629A5127" referredColumn="F033398F-9499-DB5E-E9B2-02C24251E62B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C204226-8B39-DDF7-463D-B3971DB9516D" name="Productos_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:50:47 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F033398F-9499-DB5E-E9B2-02C24251E62B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCBF16C9-AC40-6811-D3DE-69B46D7F8D02" name="Productos_Productos_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:58:09 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AB556A1-058B-835A-6D6E-6CAD78C30BD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

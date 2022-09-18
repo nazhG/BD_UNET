@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="696BE864-2F62-A3FF-98B8-4A2714317F4C" name="FKArc_2">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:57:05 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<mandatory>false</mandatory>
+<table>78585F30-A38F-D794-1A6B-A8DF3D8764EA</table>
+<fkeys>
+<fkeyID>EA5B1DFA-3DA1-8EC0-9E99-8D78E5955471</fkeyID>
+<fkeyID>9E7234AB-FDCD-C786-9513-FE0F86A8B842</fkeyID>
+</fkeys>
+</FKArc>

@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DBDFC64-522B-61C0-5AC5-E3621D676646" name="Vendedor">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:51:38 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo_vendedor" id="7826C3AF-008C-0600-3800-4A4739F829D8">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:52:37 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="A6A98516-379D-0A54-BD17-F1798D2B9EF9">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:52:37 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C91EB099-5E4A-A059-AF85-7D5BC3EF462A" name="Vendedor_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:52:43 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7826C3AF-008C-0600-3800-4A4739F829D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

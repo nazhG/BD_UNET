@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9E7234AB-FDCD-C786-9513-FE0F86A8B842" containerWithKeyObject="78585F30-A38F-D794-1A6B-A8DF3D8764EA" localFKIndex="58B6185E-166B-E214-5EF6-CC97750DF033" name="Pedidos_Presupuestos_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:55:30 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<referredTableLongName>Presupuestos</referredTableLongName>
+<arc>696BE864-2F62-A3FF-98B8-4A2714317F4C</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>87A6303F-663A-93C8-8154-3AAF5466F9B1</referredTableID>
+<keyObject>5612FCC9-D9A7-94A0-9F85-ECDEB4581E2D</keyObject>
+<referredKeyID>5612FCC9-D9A7-94A0-9F85-ECDEB4581E2D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>N_pre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D9305BE0-9168-864F-DA5A-54658114CFBE" containerWithKeyObject="78585F30-A38F-D794-1A6B-A8DF3D8764EA" localFKIndex="7AA2262C-158E-0CE4-CFE4-4BF85D37EFF1" name="Pedidos_Vendedor_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:53:27 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<referredTableLongName>Vendedor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3DBDFC64-522B-61C0-5AC5-E3621D676646</referredTableID>
+<keyObject>C91EB099-5E4A-A059-AF85-7D5BC3EF462A</keyObject>
+<referredKeyID>C91EB099-5E4A-A059-AF85-7D5BC3EF462A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Codigo_vendedor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

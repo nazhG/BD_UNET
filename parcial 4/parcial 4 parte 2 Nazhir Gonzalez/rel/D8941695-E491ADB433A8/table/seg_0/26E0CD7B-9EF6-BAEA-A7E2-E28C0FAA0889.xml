@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26E0CD7B-9EF6-BAEA-A7E2-E28C0FAA0889" name="Banco">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:43:07 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_banco" id="4C6BE349-4BDD-140F-C623-9E64B2410A2E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:43:32 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="EBC84AD6-1392-4C68-F33F-0AE216824A52">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:43:32 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0EE1D72-7E65-41D2-9523-90B3D29C3B63" name="Banco_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:43:32 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C6BE349-4BDD-140F-C623-9E64B2410A2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

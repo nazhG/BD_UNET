@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F84958C0-3ADD-35EB-00B4-20467DCF3509" name="Pedido_Item">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:49:06 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="catidad_pedida" id="737DA3DF-40FB-0AE5-B0F6-F3A0115C02DC">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:49:27 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_N_ped" id="40FC2B88-464D-B4C6-AEC5-86ADBE029723">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:59:17 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8539ABA-DA0A-4637-BAFE-CD9B2EBF236A" referredColumn="29CD6D40-4EB0-89B3-06BC-0F95430310A4"/>
+</associations>
+</Column>
+<Column name="Productos_codigo_prod" id="1096BD44-B8B2-BB1A-40DA-F8E4E6172D80">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:59:29 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4127B5C-18BD-9525-83D1-05828318C8FF" referredColumn="F033398F-9499-DB5E-E9B2-02C24251E62B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00EF6DE2-DF54-876F-53DF-5F55E12ACEC7" name="Pedido_Item_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:59:54 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40FC2B88-464D-B4C6-AEC5-86ADBE029723"/>
+<colUsage columnID="1096BD44-B8B2-BB1A-40DA-F8E4E6172D80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72A93974-7F06-179E-A2BD-FC9DDB61EFF2" name="Pedido_Item_Pedidos_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:59:17 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40FC2B88-464D-B4C6-AEC5-86ADBE029723"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BB0BF0E-F0C2-858C-7115-8A7E1A5A411B" name="Pedido_Item_Productos_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:59:29 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1096BD44-B8B2-BB1A-40DA-F8E4E6172D80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

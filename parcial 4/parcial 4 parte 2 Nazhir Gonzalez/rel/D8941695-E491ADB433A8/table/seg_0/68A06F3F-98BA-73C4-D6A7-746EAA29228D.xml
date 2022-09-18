@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68A06F3F-98BA-73C4-D6A7-746EAA29228D" name="Credito">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:41:52 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mon_Credito" id="FC5E34F0-D889-6FE4-E4EF-8BFF25DDEA08">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:42:39 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Banco_codigo_banco" id="F7BC43C2-A5E1-8825-F788-082EFC3C95F4">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:43:36 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3172774-23A9-8773-8201-8792A9B7D830" referredColumn="4C6BE349-4BDD-140F-C623-9E64B2410A2E"/>
+</associations>
+</Column>
+<Column name="cliente_Codigo_cliente" id="BAA7BC0A-3D7F-451D-33EA-577155C1F7F3">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:45:21 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D651471-5580-3971-65E0-4A843E10F5B3" referredColumn="C6F24B2B-009E-E278-9C49-5E1851C2E5D6"/>
+</associations>
+</Column>
+<Column name="codigo_credito" id="AB64B132-C1CF-E065-0D2B-10C71AE49336">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:45:58 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCD6F79D-3FA0-D212-91F1-E67BCC204167" name="Credito_PK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:42:39 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB64B132-C1CF-E065-0D2B-10C71AE49336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="856BCC0A-450B-6194-D206-6E24FE22E805" name="Credito_Banco_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:43:36 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BC43C2-A5E1-8825-F788-082EFC3C95F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AED683F-CB98-5428-2A95-A878A80FC212" name="Credito_cliente_FK">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-18 19:45:21 UTC</createdTime>
+<ownerDesignName>parcial 4 parte 2 Nazhir Gonzalez</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA7BC0A-3D7F-451D-33EA-577155C1F7F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
