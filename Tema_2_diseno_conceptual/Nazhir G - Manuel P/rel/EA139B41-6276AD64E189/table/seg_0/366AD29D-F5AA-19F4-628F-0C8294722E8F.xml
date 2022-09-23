@@ -26,7 +26,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="fecha_asignacion" id="FC5B503B-15E7-6CAD-FBC0-90C1D3554F71">
@@ -157,4 +158,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="sevicio_CK_1" directorySegmentName="seg_0" id="8FB6FEDE-FFD8-564F-4ED7-B6704DC7BCCA">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-20 21:23:07 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<rule><![CDATA[fecha_asignacion >= fecha_estimada AND fecha_estimada >= fecha_real]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

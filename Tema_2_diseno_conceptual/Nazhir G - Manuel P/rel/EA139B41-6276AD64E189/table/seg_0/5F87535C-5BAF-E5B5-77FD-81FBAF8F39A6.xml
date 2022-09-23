@@ -25,7 +25,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_cedula" id="20FD9981-A65C-90A6-580A-C8D63450DC95">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-20 16:44:06 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="cedula" id="50A1CC2A-C3AF-3B49-FA79-BF08F11E4224">
@@ -55,7 +68,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64 CHAR</dataTypeSize>
+<ownDataTypeParameters>64 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="correo" id="6D440BB3-CF77-58EF-C0BF-C9F8E4C0A6DA">
@@ -66,7 +80,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="telefono" id="C62402C6-E5A9-1D05-AA6B-5879589FB48A">
@@ -77,7 +92,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="municipio_id_municipio" id="C2B48BEC-AE2C-A9CC-A4BA-1A6E9A7A1DA5">
@@ -130,6 +146,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="50A1CC2A-C3AF-3B49-FA79-BF08F11E4224"/>
+<colUsage columnID="20FD9981-A65C-90A6-580A-C8D63450DC95"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="1EA63A28-42EA-A9BB-608F-79156A2C7AF9" name="cliente_municipio_FK">
@@ -153,4 +170,18 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="cliente_cedula_tipos" directorySegmentName="seg_0" id="8E0E5963-6058-2081-F7EC-026A86838C6E">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-20 16:45:22 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<rule><![CDATA[tipo_cedula IN ('V', 'E')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="cliente_CK_nombre" directorySegmentName="seg_0" id="7D6C73A6-640A-7607-9982-7DC7AFF1BD4F">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-20 21:19:03 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<rule><![CDATA[nombre = UPPER(nombre)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

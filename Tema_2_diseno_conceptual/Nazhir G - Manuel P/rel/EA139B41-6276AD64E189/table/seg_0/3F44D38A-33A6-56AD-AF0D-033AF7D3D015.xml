@@ -27,7 +27,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -43,12 +44,13 @@
 <colUsage columnID="CD4CD594-AEB3-6A4C-DF37-360550F396BF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5731E4E7-D281-2F29-F557-8B370A6F356A" name="satisfaccion__UN">
-<createdBy>USUARIO</createdBy>
-<createdTime>2022-09-17 15:37:35 UTC</createdTime>
-<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-</ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="satisfaccion_CK_1" directorySegmentName="seg_0" id="865004D0-0778-7345-4B41-B57F3F51B319">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-20 21:25:31 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<rule><![CDATA[id_satisfaccion BETWEEN 1 AND 10]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

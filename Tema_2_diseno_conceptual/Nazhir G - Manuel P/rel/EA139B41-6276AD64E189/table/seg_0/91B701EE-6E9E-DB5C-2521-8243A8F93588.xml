@@ -71,7 +71,7 @@
 <colAssociation fkAssociation="6A0C66C2-2147-9EDC-812A-93B7A99E9D6A" referredColumn="CD4CD594-AEB3-6A4C-DF37-360550F396BF"/>
 </associations>
 </Column>
-<Column name="estado_solicitud_id_estado_solicitud" id="D15DA7AF-7B40-476F-9FE3-09D89193FF37">
+<Column name="estado_solicitud_id" id="D15DA7AF-7B40-476F-9FE3-09D89193FF37">
 <createdBy>USUARIO</createdBy>
 <createdTime>2022-09-17 16:06:47 UTC</createdTime>
 <ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
@@ -85,7 +85,7 @@
 <colAssociation fkAssociation="446C5589-1E0F-D801-6960-EF766EB73A5C" referredColumn="81737298-9123-C2E7-2EFF-177D8654D1C3"/>
 </associations>
 </Column>
-<Column name="tipo_solicitud_id_tipo_solicitud" id="A0D6124F-E829-15B3-3E0D-7C1BAB3507EE">
+<Column name="tipo_solicitud_id" id="A0D6124F-E829-15B3-3E0D-7C1BAB3507EE">
 <createdBy>USUARIO</createdBy>
 <createdTime>2022-09-17 16:43:15 UTC</createdTime>
 <ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
@@ -163,4 +163,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="solicitud_CK_1" directorySegmentName="seg_0" id="D8998575-AAA2-CDB0-9AB5-0B5F45277150">
+<createdBy>USUARIO</createdBy>
+<createdTime>2022-09-20 21:00:49 UTC</createdTime>
+<ownerDesignName>Nazhir G - Manuel P</ownerDesignName>
+<rule><![CDATA[id_solicitud BETWEEN 10000 AND 99999]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>
